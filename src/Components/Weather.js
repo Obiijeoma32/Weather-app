@@ -1,9 +1,7 @@
-// import images from './icons'
-
 function Weather({ data }) {
   return (
     <>
-      <div className="w-[300px] p-[0_20px_20px_20px] rounded-[6px] shadow-[10px_-2px_20px_2px_rgba(0,0,0,30%)] bg-[#5dabe6] text-[#fff] m-[20px_auto_0_auto]">
+      <div className="w-[300px] p-[0_20px_20px_20px] rounded-[6px] shadow-[10px_-2px_20px_2px_rgba(0,0,0,30%)] bg-[#5DABE6] text-[#fff] m-[20px_auto_0_auto]">
         <div className="flex justify-between items-center">
           <div>
             <p className=" font-[600] text-[18px] leading-[1] m-0 tracking-[1px]">{data.city}</p>

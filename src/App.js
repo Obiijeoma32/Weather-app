@@ -2,6 +2,7 @@ import Search from "./Components/Search";
 import Weather from "./Components/Weather";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 import Forecast from "./Components/Forecast";
 import "./App.css";
 
@@ -27,6 +28,10 @@ function App() {
   console.log(forecast);
   return (
     <>
+      <Helmet>
+        <title>Weather App</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <div className="">
         <Search onSearchChange={handleOnSearchChange} />
 

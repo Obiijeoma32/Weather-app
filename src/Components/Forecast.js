@@ -28,28 +28,28 @@ function Forecast({ data }) {
             <AccordionItemPanel>
               <div className="last-row">
                 <div className=" items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">Pressure</label>
-                  <label className=" text-[#fffcfc] font-[400]">{item.main.pressure}hPa</label>
+                  <label className="text-[#000] font-[500]">Pressure:</label>
+                  <label className=" text-[#000] font-[400]">{item.main.pressure}hPa</label>
                 </div>
                 <div className="items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">Humidty</label>
-                  <label className="text-[#fffcfc] font-[400]">{item.main.humidity}%</label>
+                  <label className="text-[#000] font-[500]">Humidty:</label>
+                  <label className="text-[#000] font-[400]">{item.main.humidity}%</label>
                 </div>
                 <div className="items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">Cloud</label>
-                  <label className="text-[#fffcfc] font-[400]">{item.clouds.all}%</label>
+                  <label className="text-[#000] font-[500]">Cloud:</label>
+                  <label className="text-[#000] font-[400]">{item.clouds.all}%</label>
                 </div>
                 <div className="items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">Wind Speed:</label>
-                  <label className="text-[#fffcfc] font-[400]">{item.wind.speed} m/s</label>
+                  <label className="text-[#000] font-[500]">Wind Speed:</label>
+                  <label className="text-[#000] font-[400]">{item.wind.speed} m/s</label>
                 </div>
                 <div className="items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">Sea level:</label>
-                  <label className="text-[#fffcfc] font-[400]">{item.main.sea_level}m</label>
+                  <label className=" text-[#000] font-[500]">Sea level:</label>
+                  <label className="text-[#000] font-[400]">{item.main.sea_level}m</label>
                 </div>
                 <div className="items-center flex h-[30px] justify-between ">
-                  <label className="text-[#fff] font-[500]">feels like:</label>
-                  <label className="text-[#fffcfc] font-[400]">{Math.round(item.main.feels_like)}°C</label>
+                  <label className="text-[#000] font-[500]">feels like:</label>
+                  <label className="text-[#000] font-[400]">{Math.round(item.main.feels_like)}°C</label>
                 </div>
               </div>
             </AccordionItemPanel>
