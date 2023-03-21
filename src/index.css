@@ -15,7 +15,7 @@ body {
   object-fit: cover;
   background-position: center;
   background-size: cover;
-  height: 150vh;
+  height: 170vh;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -40,4 +40,5 @@ body {
   grid-template-columns: auto auto;
   padding: 5px 15px;
   row-gap: 0;
+  width: 80%;
 }
