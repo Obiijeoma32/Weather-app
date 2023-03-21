@@ -28,7 +28,7 @@ function Search({ onSearchChange }) {
 
   return (
     <>
-      <AsyncPaginate className=" w-[90%] m-[67px] mr-2 " placeholder="Search for city" debounceTimeout={600} value={search} onChange={handleChange} loadOptions={loadOptions} />
+      <AsyncPaginate className=" w-[90%] ml-[45px]  mt-[67px] sm:w-[90%] sm:mr-[40px] " placeholder="Search for city" debounceTimeout={600} value={search} onChange={handleChange} loadOptions={loadOptions} />
     </>
   );
 }
